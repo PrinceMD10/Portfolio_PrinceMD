@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useScrollProgress } from "./hooks/Usescrollanimation";
+import { useScrollProgress } from "./hooks/useScrollAnimation";
 
 import Navigation from "./components/layout/Navigation";
 import Hero from "./components/layout/Hero";
