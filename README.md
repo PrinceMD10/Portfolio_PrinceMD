@@ -241,10 +241,10 @@ Ce projet est sous licence MIT. Vous êtes libre de l'utiliser et de le modifier
 ## 👨‍💻 Auteur
 
 **DIOMANDE Prince Moussa**
-- Portfolio: [dpm-dev.com](https://dpm-dev.com)
-- GitHub: [@diomande-prince](https://github.com/diomande-prince)
-- LinkedIn: [DIOMANDE Prince Moussa](https://linkedin.com/in/diomande-prince)
-- Email: contact@dpm-dev.com
+- Portfolio: [dpm-dev.com](https://github.com/PrinceMD10/Portfolio_PrinceMD)
+- GitHub: [@diomande-prince](https://github.com/PrinceMD10)
+- LinkedIn: [DIOMANDE Prince Moussa](https://linkedin.com/in/PrinceMD10)
+- Email: princemdiomande@gmail.com
 
 ## 🙏 Remerciements
 
