@@ -1,35 +1,65 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useEffect, useState } from "react";
+import { useScrollProgress } from "./hooks/Usescrollanimation";
+
+import Navigation from "./components/layout/Navigation";
+import Hero from "./components/layout/Hero";
+import Footer from "./components/layout/Footer";
+
+import AboutSection from "./components/sections/AboutSection";
+import ProjectsSection from "./components/sections/ProjectsSection";
+import SkillsSection from "./components/sections/SkillsSection";
+import ContactSection from "./components/sections/ContactSection";
+
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  // Progression du scroll (0 → 1)
+  const scrollProgress = useScrollProgress();
+
+  // Affichage de la barre après un certain scroll
+  const [showScrollProgress, setShowScrollProgress] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setShowScrollProgress(window.scrollY > 300);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll();
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="app">
+      {/* Scroll Progress Bar */}
+      <div
+        className={`scroll-progress-bar ${
+          showScrollProgress ? "visible" : ""
+        }`}
+      >
+        <div
+          className="scroll-progress-fill"
+          style={{ width: `${scrollProgress * 100}%` }}
+        />
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+
+      {/* Navigation */}
+      <Navigation />
+
+      {/* Main Content */}
+      <main className="main-content">
+        <Hero />
+        <AboutSection />
+        <ProjectsSection />
+        <SkillsSection />
+        <ContactSection />
+      </main>
+
+      {/* Footer */}
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
