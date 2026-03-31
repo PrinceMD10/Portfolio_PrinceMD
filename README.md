@@ -30,12 +30,6 @@ Portfolio moderne et professionnel d'un développeur web full stack, créé avec
 - **ESLint** - Linting du code
 - **Git** - Contrôle de version
 
-## 📦 Installation
-
-### Prérequis
-- Node.js (v18 ou supérieur)
-- npm ou yarn
-
 ### Étapes d'installation
 
 1. **Cloner le repository**
