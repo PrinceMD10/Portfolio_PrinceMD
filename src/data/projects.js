@@ -12,12 +12,12 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Application de Réservation",
-    description: "Système de réservation en ligne avec gestion des disponibilités, calendrier interactif et notifications.",
-    technologies: ["React", "PHP", "MySQL"],
+    title: "Application d'apprentissage du développement web",
+    description: "Système d'apprentissage interactif pour maîtriser les concepts du développement web.",
+    technologies: ["React", "Firebase", "MySQL"],
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
-    githubUrl: "https://github.com/PrinceMD10",
-    liveUrl: "#",
+    githubUrl: "https://github.com/PrinceMD10/Dev-Path",
+    liveUrl: "https://dev-path-4ccoy9g15-princemd10.vercel.app/",
     category: "full-stack",
     featured: true
   },
@@ -28,7 +28,7 @@ export const projects = [
     technologies: ["PHP", "MySQL", "JavaScript"],
     image: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=800&h=600&fit=crop",
     githubUrl: "https://github.com/PrinceMD10/bug_tracker",
-    liveUrl: "#",
+    liveUrl: "https://princemd.alwaysdata.net",
     category: "backend",
     featured: true
   },
@@ -39,7 +39,7 @@ export const projects = [
     technologies: ["JavaScript", "HTML5", "CSS3"],
     image: "https://images.unsplash.com/photo-1517971129774-8a2b38fa128e?w=800&h=600&fit=crop",
     githubUrl: "https://github.com/PrinceMD10/Pre-Flight_Checklist",
-    liveUrl: "#",
+    liveUrl: "https://pre-flight-checklist-seven.vercel.app/",
     category: "frontend",
     featured: false
   },
@@ -50,7 +50,7 @@ export const projects = [
     technologies: ["React", "Vite", "JavaScript"],
     image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&h=600&fit=crop",
     githubUrl: "https://github.com/PrinceMD10/Prompt_Wallet",
-    liveUrl: "#",
+    liveUrl: "https://prompt-wallet-oz4ysorp7-princemd10.vercel.app/",
     category: "frontend",
     featured: true
   },
