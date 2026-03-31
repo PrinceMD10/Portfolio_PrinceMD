@@ -1,4 +1,4 @@
-import { useScrollAnimation } from '../../hooks/Usescrollanimation';
+import { useScrollAnimation } from '../../hooks/useScrollAnimation';
 import { skillsData } from '../../data/skills';
 import SkillCategory from '../ui/SkillCategory';
 import "../../styles/SkillsSection.css";
