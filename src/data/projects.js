@@ -72,7 +72,7 @@ export const projects = [
     technologies: ["React", "Vite", "CSS3"],
     image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=600&fit=crop",
     githubUrl: "https://github.com/PrinceMD10/Portfolio_PrinceMD",
-    liveUrl: "#",
+    liveUrl: "https://portfolio-prince-md-g8yj.vercel.app/",
     category: "frontend",
     featured: true
   }
