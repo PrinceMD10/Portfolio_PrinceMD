@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useScrollAnimation } from '../../hooks/Usescrollanimation';
+import { useScrollAnimation } from '../../hooks/useScrollAnimation';
 import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-react';
 import "../../styles/ContactSection.css";
 

@@ -1,4 +1,4 @@
-import { useScrollAnimation } from '../../hooks/Usescrollanimation';
+import { useScrollAnimation } from '../../hooks/useScrollAnimation';
 import { Code2, Rocket, Users, Trophy } from 'lucide-react';
 import "../../styles/AboutSection.css";
 
