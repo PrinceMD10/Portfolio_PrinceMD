@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useScrollAnimation } from '../../hooks/Usescrollanimation';
+import { useScrollAnimation } from '../../hooks/UseScrollAnimation';
 import { projects, projectCategories } from '../../data/projects';
 import ProjectCard from '../ui/ProjectCard';
 import "../../styles/ProjectsSection.css";
