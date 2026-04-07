@@ -6,7 +6,7 @@ export const projects = [
     technologies: ["React", "Node.js", "MongoDB", "Stripe"],
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
     githubUrl: "https://github.com/PrinceMD10",
-    liveUrl: "#",
+    liveUrl: "ecommerce-428ocxbp1-princemd10.vercel.app",
     category: "full-stack",
     featured: true
   },
